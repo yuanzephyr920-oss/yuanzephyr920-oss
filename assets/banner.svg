@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-label="yuanzephyr — DSH plugin smith">
+  <title>yuanzephyr</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#05080b"/>
+      <stop offset="0.5" stop-color="#070c10"/>
+      <stop offset="1" stop-color="#0a1416"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.795" cy="0.49" r="0.40">
+      <stop offset="0" stop-color="#7ee787" stop-opacity="0.10"/>
+      <stop offset="1" stop-color="#7ee787" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="vig" cx="0.5" cy="0.5" r="0.75">
+      <stop offset="0.55" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0.55"/>
+    </radialGradient>
+    <linearGradient id="gear" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#a6f3b4"/>
+      <stop offset="0.55" stop-color="#7ee787"/>
+      <stop offset="1" stop-color="#2f9e4f"/>
+    </linearGradient>
+    <linearGradient id="sweep" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7ee787" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#7ee787" stop-opacity="0.10"/>
+      <stop offset="1" stop-color="#7ee787" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M30 0H0V30" fill="none" stroke="#9fe6b8" stroke-opacity="0.045" stroke-width="1"/>
+    </pattern>
+    <pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect width="4" height="1" fill="#000000" fill-opacity="0.30"/>
+    </pattern>
+    <clipPath id="frame">
+      <rect x="14" y="14" width="1172" height="292" rx="12"/>
+    </clipPath>
+  </defs>
+
+  <rect width="1200" height="320" fill="url(#bg)"/>
+
+  <g clip-path="url(#frame)">
+    <rect x="14" y="14" width="1172" height="292" fill="url(#grid)"/>
+    <rect x="14" y="14" width="1172" height="292" fill="url(#glow)"/>
+
+    <!-- gear -->
+    <g opacity="0.92">
+      <path d="M1042.00,158.00 L1059.79,164.53 L1057.25,181.75 L1038.33,182.86 A86,86 0 0 1 1030.48,201.00 L1042.62,215.55 L1031.81,229.19 L1014.87,220.69 A86,86 0 0 1 999.00,232.48 L1002.24,251.15 L986.06,257.56 L975.64,241.73 A86,86 0 0 1 956.00,244.00 L949.47,261.79 L932.25,259.25 L931.14,240.33 A86,86 0 0 1 913.00,232.48 L898.45,244.62 L884.81,233.81 L893.31,216.87 A86,86 0 0 1 881.52,201.00 L862.85,204.24 L856.44,188.06 L872.27,177.64 A86,86 0 0 1 870.00,158.00 L852.21,151.47 L854.75,134.25 L873.67,133.14 A86,86 0 0 1 881.52,115.00 L869.38,100.45 L880.19,86.81 L897.13,95.31 A86,86 0 0 1 913.00,83.52 L909.76,64.85 L925.94,58.44 L936.36,74.27 A86,86 0 0 1 956.00,72.00 L962.53,54.21 L979.75,56.75 L980.86,75.67 A86,86 0 0 1 999.00,83.52 L1013.55,71.38 L1027.19,82.19 L1018.69,99.13 A86,86 0 0 1 1030.48,115.00 L1049.15,111.76 L1055.56,127.94 L1039.73,138.36 A86,86 0 0 1 1042.00,158.00 Z" fill="none" stroke="url(#gear)" stroke-width="2.2" stroke-linejoin="round" stroke-opacity="0.78">
+        <animateTransform attributeName="transform" type="rotate" from="0 956 158" to="360 956 158" dur="150s" repeatCount="indefinite"/>
+      </path>
+      <circle cx="956" cy="158" r="122" fill="none" stroke="#7ee787" stroke-opacity="0.16" stroke-width="1" stroke-dasharray="1 9"/>
+      <circle cx="956" cy="158" r="62" fill="none" stroke="#7ee787" stroke-opacity="0.34" stroke-width="1.2" stroke-dasharray="3 7"/>
+      <circle cx="956" cy="158" r="14" fill="none" stroke="#7ee787" stroke-opacity="0.55" stroke-width="1.6"/>
+      <circle cx="992.4" cy="179.0" r="3.2" fill="#7ee787" fill-opacity="0.42"/>
+    <circle cx="956.0" cy="200.0" r="3.2" fill="#7ee787" fill-opacity="0.42"/>
+    <circle cx="919.6" cy="179.0" r="3.2" fill="#7ee787" fill-opacity="0.42"/>
+    <circle cx="919.6" cy="137.0" r="3.2" fill="#7ee787" fill-opacity="0.42"/>
+    <circle cx="956.0" cy="116.0" r="3.2" fill="#7ee787" fill-opacity="0.42"/>
+    <circle cx="992.4" cy="137.0" r="3.2" fill="#7ee787" fill-opacity="0.42"/>
+    </g>
+
+    <!-- text column -->
+    <rect x="44" y="82" width="2" height="196" fill="#7ee787" fill-opacity="0.30"/>
+    <text x="64" y="99" font-family="'JetBrains Mono','Cascadia Code',Consolas,'SF Mono',Menlo,monospace" font-size="12.5" letter-spacing="2.6" fill="#5f8a70" fill-opacity="0.95">// FIELD TERMINAL · ADEPTUS MECHANICUS</text>
+    <text x="62" y="168" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="58" font-weight="700" letter-spacing="-1.2" fill="#e9f2f7">yuanzephyr</text>
+    <text x="64" y="206" font-family="'JetBrains Mono','Cascadia Code',Consolas,'SF Mono',Menlo,monospace" font-size="15" letter-spacing="1.4" fill="#7ee787" fill-opacity="0.92">DSH PLUGINS · CRT · LITANY · MARKET</text>
+    <text x="64" y="240" font-family="'JetBrains Mono','Cascadia Code',Consolas,'SF Mono',Menlo,monospace" font-size="13" fill="#5f7381">"The flesh is weak. The code endures."</text>
+
+    <!-- ruler -->
+    <g stroke="#7ee787" stroke-opacity="0.16">
+      <line x1="48" y1="288" x2="700" y2="288" stroke-width="1"/>
+      <line x1="48" y1="282" x2="48" y2="294" stroke-width="1"/>
+      <line x1="700" y1="282" x2="700" y2="294" stroke-width="1"/>
+    </g>
+    <text x="712" y="292" font-family="'JetBrains Mono',Consolas,monospace" font-size="10.5" letter-spacing="1.6" fill="#3f5a4a">REV 2026.11 · LOCALE ZH-CN</text>
+
+    <!-- status -->
+    <circle cx="1046" cy="287" r="3.6" fill="#7ee787">
+      <animate attributeName="opacity" values="1;1;0.15;0.15" keyTimes="0;0.45;0.5;1" dur="2.4s" repeatCount="indefinite"/>
+    </circle>
+    <text x="1058" y="291" font-family="'JetBrains Mono',Consolas,monospace" font-size="10.5" letter-spacing="1.8" fill="#5f8a70">SYS · ONLINE</text>
+
+    <!-- crt sweep -->
+    <rect x="14" y="-70" width="1172" height="70" fill="url(#sweep)">
+      <animate attributeName="y" values="-70;320" dur="8s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="14" y="14" width="1172" height="292" fill="url(#scan)" opacity="0.55"/>
+    <rect x="14" y="14" width="1172" height="292" fill="url(#vig)"/>
+  </g>
+
+  <rect x="14.5" y="14.5" width="1171" height="291" rx="12" fill="none" stroke="#1d2f38" stroke-width="1"/>
+  <rect x="14.5" y="14.5" width="1171" height="291" rx="12" fill="none" stroke="#7ee787" stroke-opacity="0.10" stroke-width="1"/>
+</svg>
