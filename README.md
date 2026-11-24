@@ -5,6 +5,7 @@
 <p align="center">
   <a href="https://www.npmjs.com/package/dsh-idle-crt"><img src="https://img.shields.io/npm/v/dsh-idle-crt?style=flat-square&labelColor=0d1117&color=3fb950" alt="dsh-idle-crt" /></a>
   <a href="https://www.npmjs.com/package/dsh-om-messiah"><img src="https://img.shields.io/npm/v/dsh-om-messiah?style=flat-square&labelColor=0d1117&color=3fb950" alt="dsh-om-messiah" /></a>
+  <a href="https://www.npmjs.com/package/dsh-github-prior-art"><img src="https://img.shields.io/npm/v/dsh-github-prior-art?style=flat-square&labelColor=0d1117&color=3fb950" alt="dsh-github-prior-art" /></a>
   <a href="https://github.com/yuanzephyr920-oss?tab=repositories"><img src="https://img.shields.io/badge/plugins%20for-DSH-7ee787?style=flat-square&labelColor=0d1117" alt="plugins for DSH" /></a>
 </p>
 
@@ -12,9 +13,9 @@
   <sub>「肉体羸弱，机械恒昌。」</sub>
 </p>
 
-我给 **DeepSeek Harness（DSH）** 写插件：一块在你走神时亮起来的显像管，一封把提示词翻译成祷文的转换器。都是自己每天在用的东西，所以做得比较较真——全 GPU 合成、零运行时依赖、不魔改宿主。
+我给 **DeepSeek Harness（DSH）** 写插件：一块在你走神时亮起来的显像管，一封把提示词翻译成祷文的转换器，还有一条开工前先查 GitHub 的规矩。都是自己每天在用的东西，所以做得比较较真——全 GPU 合成、零运行时依赖、不魔改宿主。
 
-<sub>*I build plugins for DeepSeek Harness: CRT idle screens and machine-god litanies. Made for daily use, so they are built carefully — GPU-composited, zero-dependency, no monkey-patching.*</sub>
+<sub>*I build plugins for DeepSeek Harness: CRT idle screens, machine-god litanies, and a prior-art rule that fires before anything is built from scratch. Made for daily use, so they are built carefully — GPU-composited, zero-dependency, no monkey-patching.*</sub>
 
 ---
 
@@ -35,6 +36,12 @@
 ### 🗂️ [awesome-dsh-plugin](https://github.com/yuanzephyr920-oss/awesome-dsh-plugin) — 插件目录
 
 DSH 插件市场的收录仓库，我的插件条目在这里提交与维护。
+
+### 🧭 [dsh-github-prior-art](https://github.com/yuanzephyr920-oss/dsh-github-prior-art) — 开工前查重
+
+从零造东西之前，先搜一遍 GitHub 上的同类项目：两三组关键词、3–5 个候选，把「候选 / 决定 / 理由」写成三行，再决定依赖、fork、只借结构还是自建。常驻规矩 + 按需技能，不改 `AGENTS.md`。
+
+`npm 0.1.3` `常驻规矩` `零运行时依赖` `不改宿主配置`
 
 ---
 
@@ -65,7 +72,7 @@ DSH 插件市场的收录仓库，我的插件条目在这里提交与维护。
 
 ## ▚ 04 · 终端
 
-- **npm** — [dsh-idle-crt](https://www.npmjs.com/package/dsh-idle-crt) · [dsh-om-messiah](https://www.npmjs.com/package/dsh-om-messiah)
+- **npm** — [dsh-idle-crt](https://www.npmjs.com/package/dsh-idle-crt) · [dsh-om-messiah](https://www.npmjs.com/package/dsh-om-messiah) · [dsh-github-prior-art](https://www.npmjs.com/package/dsh-github-prior-art)
 - **问题与需求** — [Issues](https://github.com/yuanzephyr920-oss/dsh-idle-crt/issues)，或者直接 @ 我
 - **想看看内部** — [dsh-idle-crt](https://github.com/yuanzephyr920-oss/dsh-idle-crt) 的 `lib/` 里，宿主半边和浏览器半边是分开写的
 
